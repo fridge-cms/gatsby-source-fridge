@@ -1,4 +1,3 @@
-# gatsby-source-fridge
 <div align="center">
   <img src="https://fridgecms.com/static/Fridge-dark.svg" width="32" />
   <h1>gatsby-source-fridge</h1>
