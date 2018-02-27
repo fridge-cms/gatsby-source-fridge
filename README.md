@@ -16,7 +16,9 @@ module.exports = {
   plugins: [
     {
       resolve: 'gatsby-source-fridge',
-      token: 'Fridge API Token'
+      options: {
+        token: 'FRIDGE_API_TOKEN'
+      }
     }
   ]
 }
