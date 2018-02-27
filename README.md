@@ -24,6 +24,10 @@ module.exports = {
 }
 ```
 
+## Examples
+
+* [Basic Blog](https://github.com/fridge-cms/examples/tree/master/gatsby-basic-blog)
+
 ## Querying Content
 
 ```graphql
