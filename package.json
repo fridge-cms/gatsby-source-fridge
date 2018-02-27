@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-source-fridge",
+  "version": "0.0.1",
+  "description": "Add Fridge content into your Gatsby project.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fridge-cms/gatsby-source-fridge.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "fridge",
+    "cms",
+    "graphql"
+  ],
+  "author": "Ripeworks <mike@ripeworks.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fridge-cms/gatsby-source-fridge/issues"
+  },
+  "homepage": "https://github.com/fridge-cms/gatsby-source-fridge#readme",
+  "dependencies": {
+    "fridge": "^2.0.4-beta",
+    "pluralize": "^7.0.0"
+  }
+}
