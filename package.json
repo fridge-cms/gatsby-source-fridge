@@ -1,7 +1,11 @@
 {
   "name": "gatsby-source-fridge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add Fridge content into your Gatsby project.",
+  "main": "index.js",
+  "files": [
+    "gatsby-node.js"
+  ],
   "scripts": {
     "build": "babel src --out-dir .",
     "prepare": "npm run build",
